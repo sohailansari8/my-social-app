@@ -1,12 +1,9 @@
-import React from 'react';
-import './App.css';
-import SocialMediaPlatform from './social-media-platform'; 
+import React from "react";
+import SocialPlatform from "./features/social/SocialPlatform";
 
 function App() {
   return (
-    <div className="App">
-      <SocialMediaPlatform />
-    </div>
+    <SocialPlatform />
   );
 }
 
